@@ -22,6 +22,8 @@ import Profile from "views/examples/Profile.jsx";
 // import Login from "views/examples/Login.jsx";
 import Tables from "views/examples/Tables.jsx";
 import Icons from "views/examples/Icons.jsx";
+import Store from "./views/store/store";
+
 
 var routes = [
   {
@@ -36,6 +38,13 @@ var routes = [
     name: "Add Employes",
     icon: "ni ni-planet text-blue",
     component: Icons,
+    layout: "/admin"
+  },
+  {
+    path: "/store",
+    name: "Store",
+    icon: "ni ni-planet text-blue",
+    component: Store,
     layout: "/admin"
   },
   // {

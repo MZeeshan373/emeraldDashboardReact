@@ -58,7 +58,7 @@ class Icons extends React.Component {
                       <Col md={6}>
                         <FormGroup>
                           <Label for="Name">Name</Label>
-                          <Input type="email" name="email" id="Name" placeholder="Name" />
+                          <Input type="text" name="email" id="Name" placeholder="Name" />
                         </FormGroup>
                       </Col>
                       <Col md={6}>

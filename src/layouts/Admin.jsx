@@ -25,6 +25,12 @@ import AdminFooter from "components/Footers/AdminFooter.jsx";
 import Sidebar from "components/Sidebar/Sidebar.jsx";
 
 import routes from "routes.js";
+import Mining from "../views/mining/mining";
+import Sorting from "../views/sorting/sorting";
+import Cuting from "../views/cuting/cuting";
+import Polishing from "../views/polishing/polishing";
+import Certify from "../views/certify/certify";
+import Goldsmith from "../views/goldsmith/goldsmith";
 
 class Admin extends React.Component {
   componentDidUpdate(e) {
@@ -77,6 +83,12 @@ class Admin extends React.Component {
             brandText={this.getBrandText(this.props.location.pathname)}
           />
           <Switch>{this.getRoutes(routes)}</Switch>
+          <Route path='/admin/mining' component={Mining} />
+          <Route path='/admin/sorting' component={Sorting} />
+          <Route path='/admin/cuting' component={Cuting} />
+          <Route path='/admin/polishing' component={Polishing} />
+          <Route path='/admin/certify' component={Certify} />
+          <Route path='/admin/goldsmith' component={Goldsmith} />
           <Container fluid>
             <AdminFooter />
           </Container>
