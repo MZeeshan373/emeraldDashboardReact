@@ -1,0 +1,44 @@
+.details-img{
+  width: 100%;
+  padding: 10px 30px;  
+  
+}
+.details-img img{
+  width: 80%;
+}
+.details-vid{
+  width: 100%;
+  padding: 10px 30px;  
+  
+}
+.details-vid img{
+  width: 80%;
+}
+
+.video-label{
+  padding: 15px 0 0 15px;
+}
+.devider{
+  margin: 0 0 10px 0;
+}
+@media (max-width:767px){
+  .details-img{
+    width: 100%;
+    padding: 10px 30px;  
+    
+  }
+  .details-img img{
+    width: 70%;
+  }
+  .details-vid{
+    width: 100%;
+    padding: 10px 30px;  
+    
+  }
+  .details-vid img{
+    width: 70%;
+  }
+  .video-label{
+    padding: 15px 0 0 0;
+  }
+}

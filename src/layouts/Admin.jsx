@@ -31,6 +31,7 @@ import Cuting from "../views/cuting/cuting";
 import Polishing from "../views/polishing/polishing";
 import Certify from "../views/certify/certify";
 import Goldsmith from "../views/goldsmith/goldsmith";
+import StatusDetails from "../views/statusDetails/statusDetails";
 
 class Admin extends React.Component {
   componentDidUpdate(e) {
@@ -84,6 +85,7 @@ class Admin extends React.Component {
           />
           <Switch>{this.getRoutes(routes)}</Switch>
           <Route path='/admin/mining' component={Mining} />
+          <Route path='/admin/statusDetails' component={StatusDetails} />
           <Route path='/admin/sorting' component={Sorting} />
           <Route path='/admin/cuting' component={Cuting} />
           <Route path='/admin/polishing' component={Polishing} />

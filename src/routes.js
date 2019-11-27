@@ -21,6 +21,7 @@ import Profile from "views/examples/Profile.jsx";
 // import Register from "views/examples/Register.jsx";
 // import Login from "views/examples/Login.jsx";
 import Tables from "views/examples/Tables.jsx";
+import Status from "views/examples/Status.jsx";
 import Icons from "views/examples/Icons.jsx";
 import Store from "./views/store/store";
 
@@ -61,6 +62,14 @@ var routes = [
     component: Profile,
     layout: "/admin"
   },
+  {
+    path: "/status",
+    name: "Status",
+    icon: "ni ni-bullet-list-67 text-red",
+    component: Status,
+    layout: "/admin"
+  },
+
   {
     path: "/tables",
     name: "Tables",
