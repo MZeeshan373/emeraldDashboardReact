@@ -24,19 +24,19 @@
 @media (max-width:767px){
   .details-img{
     width: 100%;
-    padding: 10px 30px;  
+    padding: 10px 20px;  
     
   }
   .details-img img{
-    width: 70%;
+    width: 90%;
   }
   .details-vid{
     width: 100%;
-    padding: 10px 30px;  
+    padding: 10px 20px;  
     
   }
   .details-vid img{
-    width: 70%;
+    width: 90%;
   }
   .video-label{
     padding: 15px 0 0 0;
